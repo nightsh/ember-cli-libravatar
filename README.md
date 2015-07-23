@@ -90,4 +90,5 @@ MIT
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Crafted with <3 by [John Otander](http://johnotander.com).
+Crafted with <3 by [John Otander](http://johnotander.com), hacked by [Victor
+Nițu](http://nightsh.eu/) to meet freedom requirements.
