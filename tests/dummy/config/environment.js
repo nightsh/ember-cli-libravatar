@@ -12,7 +12,7 @@ module.exports = function(environment) {
       'font-src': "'self'",
       'frame-src': "'self'",
       'connect-src': "'self'",
-      'img-src': "'self' www.gravatar.com",
+      'img-src': "'self' cdn.libravatar.com",
       'style-src': "'self'",
       'media-src': "'self'"
     },

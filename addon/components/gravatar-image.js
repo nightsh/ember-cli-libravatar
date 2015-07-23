@@ -4,7 +4,7 @@ import md5 from 'md5';
 export default Ember.Component.extend({
   tagName: 'img',
   attributeBindings: ['src', 'alt', 'title'],
-  classNames: ['gravatar-image'],
+  classNames: ['libravatar-image'],
   size: 250,
   email: '',
   title: '',
@@ -18,6 +18,6 @@ export default Ember.Component.extend({
     var secure = this.get('secure');
     var protocol = secure ? 'https' : 'http';
 
-    return protocol + '://www.gravatar.com/avatar/' + md5(email) + '?s=' + size + '&d=' + def;
+    return protocol + '://cdn.libravatar.org/avatar/' + md5(email) + '?s=' + size + '&d=' + def;
   })
 });

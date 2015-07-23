@@ -1,3 +1,3 @@
-import gravatarImage from 'ember-cli-gravatar/components/gravatar-image';
+import libravatarImage from 'ember-cli-libravatar/components/libravatar-image';
 
-export default gravatarImage;
+export default libravatarImage;

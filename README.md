@@ -1,35 +1,37 @@
-# ember-cli-gravatar [![Build Status](https://travis-ci.org/johnotander/ember-cli-gravatar.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-gravatar) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-gravatar.svg)](http://emberobserver.com/addons/ember-cli-gravatar)
+# ember-cli-libravatar 
 
-An [ember-cli](http://ember-cli.com) addon for a gravatar image component.
+An [ember-cli](http://ember-cli.com) addon for a libravatar image component.
 
-See it in action: <http://ember-cli-gravatar.divshot.io/>.
+This is heavily based on
+[ember-cli-gravatar](https://github.com/johnotander/ember-cli-gravatar) by
+[John Otander](John Otander). See the original addon in action: <http://ember-cli-gravatar.divshot.io/>.
 
 ## Installation
 
 For Ember CLI >= `0.2.3`
 
 ```
-ember install ember-cli-gravatar
+ember install ember-cli-libravatar
 ```
 
 For Ember CLI < `0.2.3`
 
 ```
-ember install:addon ember-cli-gravatar
+ember install:addon ember-cli-libravatar
 ```
 
 ## Usage
 
 ```hbs
-{{gravatar-image email='johnotander@gmail.com'}}
+{{libravatar-image email='victor@debian.org.ro'}}
 ```
 
 __An example with multiple options:__
 
 ```hbs
-{{gravatar-image email='johnotander@gmail.com'
-  title='John Otander'
-  alt='John Otander gravatar'
+{{libravatar-image email='victor@debian.org.ro'
+  title='Victor Nițu'
+  alt='Victor Nițu libravatar'
   defaultImage='identicon'
   class='img-circle'
   secure=false
@@ -37,24 +39,23 @@ __An example with multiple options:__
 ```
 
 The default property is optional as well as the size. You can use a encoded url or a default icon name.
-[Gravatar documentation](https://en.gravatar.com/site/implement/images/#default-image).
 
 ### Required
 
-  * `email` *String* - the email for the gravatar.
+  * `email` *String* - the email for the libravatar.
 
 ### Optional
 
-  * `class` *String* - any HTML classes to apply to the image. Default: `gravatar-image`.
+  * `class` *String* - any HTML classes to apply to the image. Default: `libravatar-image`.
   * `alt` *String* - alt description of the avatar. Default: none.
   * `size` *Number* - size of the image. Default: `250`.
-  * `defaultImage` *String* - the default image to be used in case the email doesn't have a gravatar.
+  * `defaultImage` *String* - the default image to be used in case the email doesn't have a libravatar.
   * `title` *String* - the title attribute for the image. Default: none.
   * `secure` *Boolean* - whether `http` or `https` is used. Default: `true`.
 
 ### Content Security Policy
 
-With the latest versions of the Ember CLI, you will have to whitelist gravatar.com with the following
+With the latest versions of the Ember CLI, you will have to whitelist libravatar.org with the following
 in your `config/environment.js`:
 
 ```javascript
@@ -67,7 +68,7 @@ module.exports = function(environment) {
       'script-src': "'self'",
       'font-src': "'self'",
       'connect-src': "'self'",
-      'img-src': "'self' www.gravatar.com",
+      'img-src': "'self' www.libravatar.org",
       'style-src': "'self'",
       'media-src': "'self'"
     },

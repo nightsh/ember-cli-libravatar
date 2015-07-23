@@ -5,7 +5,7 @@ import {
   test
 } from 'ember-qunit';
 
-moduleForComponent('gravatar-image', 'GravatarImageComponent', {
+moduleForComponent('libravatar-image', 'LibravatarImageComponent', {
   // specify the other units that are required for this test
   // needs: ['component:foo', 'helper:bar']
 });
@@ -52,5 +52,5 @@ test('it sets the default class attribute', function(assert) {
   var component = this.subject();
   this.append();
 
-  assert.ok(component.$().hasClass('gravatar-image'));
+  assert.ok(component.$().hasClass('libravatar-image'));
 });

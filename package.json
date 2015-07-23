@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-gravatar",
+  "name": "ember-cli-libravatar",
   "version": "3.0.2",
-  "description": "Component for gravatar image tags.",
+  "description": "Component for libravatar image tags.",
   "main": "index.js",
   "scripts": {
     "start": "ember server",
@@ -10,21 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnotander/ember-cli-gravatar.git"
+    "url": "https://github.com/nightsh/ember-cli-libravatar.git"
   },
   "keywords": [
     "ember-addon",
     "gravatar",
+    "libravatar",
     "ember",
     "avatar",
     "ember-cli"
   ],
-  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "author": "Victor Nițu <victor@thesponge.eu> (http://nightsh.eu/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johnotander/ember-cli-gravatar/issues"
+    "url": "https://github.com/nightsh/ember-cli-libravatar/issues"
   },
-  "homepage": "https://github.com/johnotander/ember-cli-gravatar",
+  "homepage": "https://github.com/nightsh/ember-cli-libravatar",
   "dependencies": {},
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",

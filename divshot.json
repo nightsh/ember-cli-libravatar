@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-gravatar",
+  "name": "ember-cli-libravatar",
   "root": "./dist",
   "routes": {
     "/tests": "tests/index.html",
