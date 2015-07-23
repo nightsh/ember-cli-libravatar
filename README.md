@@ -4,7 +4,7 @@ An [ember-cli](http://ember-cli.com) addon for a libravatar image component.
 
 This is heavily based on
 [ember-cli-gravatar](https://github.com/johnotander/ember-cli-gravatar) by
-[John Otander](John Otander). See the original addon in action: <http://ember-cli-gravatar.divshot.io/>.
+[John Otander](https://github.com/johnotander). See the original addon in action: <http://ember-cli-gravatar.divshot.io/>.
 
 ## Installation
 
@@ -68,7 +68,7 @@ module.exports = function(environment) {
       'script-src': "'self'",
       'font-src': "'self'",
       'connect-src': "'self'",
-      'img-src': "'self' www.libravatar.org",
+      'img-src': "'self' cdn.libravatar.org",
       'style-src': "'self'",
       'media-src': "'self'"
     },
