@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-libravatar",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Component for libravatar image tags.",
   "main": "index.js",
   "scripts": {
